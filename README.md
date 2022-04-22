@@ -17,10 +17,10 @@ A global average pooling and dense layer are used as the classifier to output so
 The simplified illustration of the model is shown in the figure below.
 
 
-The model is trained with a batch size of 32 and 20 epochs. Early stoping are applied on the training process of the model to avoid model overfitting issue. After training the model reaches __ training accuracy and __ validation accuracy. The training results are shown in the figures below.
+The model is trained with a batch size of 32 and 20 epochs. Early stoping are applied on the training process of the model to avoid model overfitting issue. The training stops after 3 epochs and model reaches 99% training accuracy and 99% validation accuracy. The training results are shown in the figures below.
 ## 4. Results
 The model is evaluated with test data. The loss and accuracy are shown in figure below.
 
 
-Some predictions are also been made with the model and compared with the actual results.
+Some predictions are also been made with the model are shown in the figure below.
 
