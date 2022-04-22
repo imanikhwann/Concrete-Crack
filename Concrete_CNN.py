@@ -112,3 +112,11 @@ for i in range(9):
     plt.title(class_names[class_pred[i]])
     plt.axis("off")
 #%%
+
+loss, accuracy = model.evaluate(test_dataset_pf)
+
+print("---------------After Training----------------")
+print(f"loss = {loss}")
+print(f"Accuracy = {accuracy}")
+
+#%%
