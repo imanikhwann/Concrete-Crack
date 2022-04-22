@@ -15,12 +15,14 @@ For feature extractor, a pretrained model of ResNet50 is used. The model is read
 A global average pooling and dense layer are used as the classifier to output softmax activation function. The sofmax are used to predict the class of the input images.
 
 The simplified illustration of the model is shown in the figure below.
-
+![My Image](img/model.png)
 
 The model is trained with a batch size of 32 and 20 epochs. Early stoping are applied on the training process of the model to avoid model overfitting issue. The training stops after 3 epochs and model reaches 99% training accuracy and 99% validation accuracy. The training results are shown in the figures below.
+![My Image](img/loss.png)
+![My Image](img/accuracy.png)
 ## 4. Results
 The model is evaluated with test data. The loss and accuracy are shown in figure below.
-
+![My Image](img/test accuracy.png)
 
 Some predictions are also been made with the model are shown in the figure below.
-
+![My Image](img/prediction.png)
